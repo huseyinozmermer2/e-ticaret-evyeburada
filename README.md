@@ -1,2 +1,2 @@
 # e-ticaret-evyeburada
- evye
+https://huseyinozmermer2.github.io/e-ticaret-evyeburada/
