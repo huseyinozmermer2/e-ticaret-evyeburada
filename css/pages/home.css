@@ -1,0 +1,131 @@
+.section-title {
+  position: relative;
+  text-align: center;
+  margin: 30px 10px;
+}
+.section-title::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+/*! sliders start  */
+.sliders .sliders-wrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+/*! sliders end  */
+
+/*! categories start */
+.categories {
+  margin-bottom: 2.5rem;
+}
+/*! categories end */
+/*! products start */
+.products {
+  margin-bottom: 2.5rem;
+}
+/*! products end */
+/*! campaign start  */
+.campaigns .campaigns-wrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+/*! campaign end  */
+/*! campaign single start */
+.campaign-single {
+  margin-bottom: 2.5rem;
+}
+.campaign-single .campaign-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/*! campaign single end */
+/*! policy start  */
+.policy {
+  margin-top: 40px;
+}
+.policy .policy-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 25px 0;
+  column-gap: 10px;
+}
+.policy .policy-list .policy-item {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin: 10px 0;
+}
+.policy .policy-list .policy-item i {
+  font-size: 50px;
+  display: flex;
+}
+.policy .policy-item .policy-texts {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+}
+.policy .policy-item .policy-texts strong {
+  font-weight: 600;
+}
+.policy .policy-item .policy-texts span {
+  font-size: 12px;
+  word-wrap: break-word;
+}
+/*! policy end  */
+
+.body-top{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #508360;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  visibility: hidden;
+  opacity: 0;
+  transition:all .3s ease;
+}
+.body-top:hover{
+  background-color: green;
+}
+.body-top.active{
+ visibility: visible;
+ opacity: 1;
+}
+.body-top i{
+  font-size: 40px;
+  color: #fff;
+}
+/* Responsive */
+@media (max-width: 576px) {
+  .policy .policy-list {
+    justify-content: left;
+  }
+}
+
+/*! footer Start  */
+.footer {
+  background-color: #3f3f3f;
+  color: #ffffff;
+}
+/*! footer End  */

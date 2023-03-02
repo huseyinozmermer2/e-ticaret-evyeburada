@@ -1,0 +1,264 @@
+/* .campaign-single {
+  background-image: url(../../wp-content/uploads/2022/10/evyebeyazarkaplan.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0 1rem 2rem 1rem;
+}
+.campaign-single .campaign-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.campaign-single .campaign-wrapper .campaign-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+  color: #fff;
+  flex: 1;
+}
+.campaign-single .campaign-item-span .price {
+  font-size: 30px;
+}
+.campaign-single .campaign-item2 {
+  position: relative;
+  flex: 2;
+  color: #000;
+}
+.campaign-single .campaign-item2 img {
+  position: absolute;
+  width: 90%;
+  height: 95%;
+  bottom: -5rem;
+  right: 0;
+}
+.campaign-single .campaign-item2 .campaign-item-list span {
+  position: absolute;
+  top: 4.7rem;
+  left: -6rem;
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  display: none;
+}
+.campaign-single .campaign-item2 .campaign-item-list i {
+  position: absolute;
+  top: 8rem;
+  left: 8rem;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(67, 126, 67);
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #fff;
+}
+.campaign-single .campaign-item2 .campaign-item-list:hover span {
+  display: block;
+}
+.campaign-single .campaign-item2 .campaign-item-list2 span {
+  position: absolute;
+  top: 4rem;
+  left: 6rem;
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  display: none;
+}
+.campaign-single .campaign-item2 .campaign-item-list2 i {
+  position: absolute;
+  top: 7.5rem;
+  left: 17rem;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(67, 126, 67);
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #fff;
+}
+.campaign-single .campaign-item2 .campaign-item-list2:hover span {
+  display: block;
+}
+.campaign-single .campaign-item2 .campaign-item-list3 span {
+  position: absolute;
+  top: 4rem;
+  left: 19rem;
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #fff;
+  transition: all 0.4s ease;
+  display: none;
+}
+.campaign-single .campaign-item2 .campaign-item-list3 i {
+  position: absolute;
+  top: 7.25rem;
+  left: 31rem;
+  font-size: 20px;
+  border-radius: 50%;
+  color: rgb(67, 126, 67);
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #fff;
+}
+.campaign-single .campaign-item2 .campaign-item-list3:hover span {
+  display: block;
+}
+@media (max-width: 992px) {
+  .campaign-single .campaign-wrapper {
+    flex-direction: column;
+    gap: 10px;
+    height: 650px !important;
+  }
+  .campaign-single .campaign-item {
+    height: 100%;
+  }
+  .campaign-single .campaign-item2 {
+    height: 100%;
+  }
+
+  .campaign-single .campaign-item2 .campaign-item-list span {
+    top: 5.7rem;
+    left: -2rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list i {
+    top: 9rem;
+    left: 12rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 span {
+    top: 4rem;
+    left: 14rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 i {
+    top: 7.5rem;
+    left: 24.5rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 span {
+    top: 5rem;
+    left: 33rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 i {
+    top: 8.25rem;
+    left: 45rem;
+  }
+}
+@media (max-width: 899px) {
+  .campaign-single .campaign-item2 .campaign-item-list span {
+    top: 5.7rem;
+    left: -4rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list i {
+    top: 9rem;
+    left: 10rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 span {
+    top: 4rem;
+    left: 11rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 i {
+    top: 7.5rem;
+    left: 21.5rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 span {
+    top: 5rem;
+    left: 25rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 i {
+    top: 8.25rem;
+    left: 37rem;
+  }
+}
+@media (max-width: 768px) {
+  .campaign-single .campaign-item2 .campaign-item-list span {
+    top: 5.7rem;
+    left: -2rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list i {
+    top: 9rem;
+    left: 8rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 span {
+    top: 4rem;
+    left: 11rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 i {
+    top: 7.5rem;
+    left: 18rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 span {
+    top: 5rem;
+    left: 23rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 i {
+    top: 8.25rem;
+    left: 30rem;
+  }
+}
+@media (max-width: 576px) {
+  .campaign-single .campaign-item2 .campaign-item-list span {
+    top: 5.7rem;
+    left: -2rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list i {
+    top: 9rem;
+    left: 6rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 span {
+    top: 4rem;
+    left: 8rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 i {
+    top: 7.5rem;
+    left: 13rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 span {
+    top: 4rem;
+    left: 17rem;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 i {
+    top: 8.25rem;
+    left: 21rem;
+  }
+}
+@media (max-width: 420px) {
+  .campaign-single .campaign-wrapper {
+    flex-direction: column;
+    height: 600px !important;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list {
+    display: none;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list2 {
+    display: none;
+  }
+  .campaign-single .campaign-item2 .campaign-item-list3 {
+    display: none;
+  }
+} */
+.campaign-single {
+  background-image: url(../../wp-content/uploads/2022/10/asdiii.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 140px 15px;
+  margin-bottom: 30px;
+}
+.campaign-single .campaign-wrapper {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.25rem;
+}
+.campaign-single .campaign-wrapper h2 {
+  font-size: 55px;
+}
+.campaign-single .campaign-wrapper p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.campaign-single .campaign-wrapper span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}

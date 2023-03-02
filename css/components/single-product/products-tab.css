@@ -1,0 +1,76 @@
+/*! tab list start */
+.single-tabs {
+  margin-bottom: 30px;
+}
+.single-tabs .content{
+  display: none;
+}
+.single-tabs .content.active{
+  display: block;
+}
+.single-tabs h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #555555;
+  margin: 15px;
+}
+.single-tabs .tab-list {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border-bottom: 2px solid #dddddd;
+  margin-bottom: 20px;
+}
+.single-tabs .tab-list a {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  color: #333333;
+  text-transform: uppercase;
+}
+.single-tabs .tab-list a.active {
+  border-bottom: 2px solid #508360;
+}
+.single-tabs .tab-list a:hover {
+  border-bottom: 2px solid #508360;
+}
+/*! tab list end */
+
+/*! Tab Panel start  */
+
+/*?  descriptions start */
+.single-tabs .tab-panel-descriptions {
+  font-size: 14px;
+}
+/*?  descriptions end */
+
+/*? information start */
+.single-tabs .tab-panel-information table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.single-tabs .tab-panel-information table th,
+.single-tabs .tab-panel-information table td {
+  border-bottom: 1px solid #dee0ea;
+  padding: 10px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: start;
+  color: #777777;
+}
+.single-tabs .tab-panel-woocommerce table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.single-tabs .tab-panel-woocommerce table th,
+.single-tabs .tab-panel-woocommerce table td {
+  border-bottom: 1px solid #dee0ea;
+  padding: 10px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: start;
+  color: #777777;
+}
+/*? information end */
+/*! Tab Panel end  */
